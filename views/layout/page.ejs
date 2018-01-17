@@ -18,15 +18,10 @@
       <% if(typeof menu == 'object' && menu){
       menu.forEach(function(item){
       %>
-      <li><a href="/car/<% item.nick %>"><% item.title %></a></li>
+      <li><a href="/car/<%= item.nick %>"><%= item.title %></a></li>
       <%
       })}
       %>
-      <li><a href="mcqueen">Маккуин</a></li>
-      <li><a href="metr">Метр</a></li>
-      <li><a href="chiko">Чикко Хиккс</a></li>
-      <li><a href="sally">Салли</a></li>
-      <li><a href="doc">Док Хадсон</a></li>
     </ul>
   </div>
 </nav>
